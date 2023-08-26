@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scoreCounter</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+<body>
+<div class="container">
+    <div class="columns">
+        <div class="column is-three-fifths is-offset-one-fifth">
+            <div class="card is-responsive">
+                <div class="card-image">
+                    <figure class="image is-3by1">
+                                <img src="img/score.png" alt="">
+                    </figure>
+                </div>
+                <header class="card-header">
+                    <p class="card-header-title">
+                      Score Counter
+                    </p>
+                </header>
+                <div class="card-content">
+                    <h1 class="title is-1"><span id="p1Score">0</span> to <span id="p2Score">0</span></h1>
+                  <p class="subtitle is-4">
+                    Use the buttons below to add 1 point to the score
+                  </p>
+                  <label for="winningScoreSelect" class="label is-large is-inline">Playing for:</label>
+                  <div class="select is-primary is-rounded">
+                    <select name="" id="winningScoreSelect">
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                    </select>
+                  </div>
+                </div>
+                <footer class="card-footer">
+                  <p class="card-footer-item">
+                    <span>
+                        <button id="p1btn" class="button is-light is-large is-rounded is-responsive">+1 to Player1</button>
+                    </span>
+                  </p>
+                  <p class="card-footer-item">
+                    <span>
+                        <button id="p2btn" class="button is-black is-large is-rounded is-responsive">+1 to Player2</button>
+                    </span>
+                  </p>
+                  <p class="card-footer-item">
+                    <span>
+                        <button id="resetBtn" class="button is-medium is-danger is-rounded is-responsive">Reset</button>
+                    </span>
+                  </p>
+                </footer>
+            </div> 
+
+
+        </div>
+    </div>
+</div>
+
+
+
+                
+                
+               
+                
+
+
+    <script src="app.js"></script>
+</body>
+</html>
